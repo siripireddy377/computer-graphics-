@@ -1,0 +1,29 @@
+ Key Mappings and Corresponding Functions
+
+ U key: Executes `u_move(cube)`
+ R key: Executes `d_move(cube)`
+ M key: Executes `m_move(cube)`
+ X key: Executes `x_move(cube)`
+ Z key: Executes `z_move(cube)`
+ S key: Executes `shuffle(cycle, cube)`
+ Q key: Starts the solving process with `solving()`
+
+ Major Functions
+
+1. u_move(cube): Handles the "U" (up) face move.
+2. d_move(cube): Handles the "D" (down) face move.
+3. m_move(cube): Handles the "M" (middle) slice move.
+4. x_move(cube): Handles the "X" (rotate around Xaxis) move.
+5. z_move(cube): Handles the "Z" (rotate around Zaxis) move.
+6. shuffle(cycle, cube): Shuffles the Rubik's Cube.
+7. solving(): Starts the Rubik's Cube solving algorithm.
+8. u_first_move(cube), x_first_move(cube): Variants of moves for initial state manipulations.
+9. sexy_move(cube): Executes a predefined sequence of moves known as the "sexy move".
+
+ Additional Functionality
+
+ Mouse Movement: Rotates the camera view based on mouse movements.
+ Rendering Functions: `f_layer(cube)`, `s_layer(cube)`, `t_layer(cube)` display the different layers of the Rubik's Cube.
+ Animation Functions: `u_animation`, `x_animation`, etc., animate the moves on the cube.
+
+Would you like a more detailed explanation of any specific function or key mapping?
