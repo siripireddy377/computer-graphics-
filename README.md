@@ -62,10 +62,6 @@ Controls
 - R, U, F, D, L, B: Rotate the right, upper, front, down, left, and back layers respectively.
 - Shift + Key: Rotate the respective layer in the opposite direction.
 
-Screenshots
-
-![Screenshot 1](images/screenshot1.png)
-![Screenshot 2](images/screenshot2.png)
 
 Contributing
 
